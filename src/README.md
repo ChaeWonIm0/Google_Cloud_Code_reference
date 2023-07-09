@@ -31,10 +31,10 @@ For details on how to use this sample as a template in Cloud Code, read the docu
 ### Run the app locally with minikube
 
 1. To run your application, click on the Cloud Code status bar and select ‘Run on Kubernetes’.  
-![image](./img/status-bar.png) 
+![image](C:\hello-world-1\img\status-bar.png) 
 
 2. Select ‘Run locally using minikube’ when prompted. Cloud Code runs your app in a local [minikube](https://minikube.sigs.k8s.io/docs/start/) cluster.  
-![image](./img/create-k8s-cluster.png)
+![image](hello-world-1/img/create-k8s-cluster.png)
 
 3. View the build progress in the OUTPUT window. Once the build has finished, click on the URL in the OUTPUT window to view your live application.  
 ![image](./img/kubernetes-url.png)
