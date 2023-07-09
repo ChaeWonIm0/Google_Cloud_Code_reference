@@ -22,8 +22,8 @@ For details on how to use this sample as a template in Cloud Code, read the docu
 - `skaffold.yaml` - A schema file that defines skaffold configurations ([skaffold.yaml reference](https://skaffold.dev/docs/references/yaml/))
 - `kubernetes-manifests/` - Contains Kubernetes YAML files for the Guestbook services and deployments, including:
 
-  - `hello.deployment.yaml` - deploys a pod with the 'python-hello-world' container image
-  - `hello.service.yaml` - creates a load balancer and exposes the 'python-hello-world' service on an external IP in the cluster
+  - `hello.deployment.yaml` - deploys a pod with the 'python-hello-world' container image (2023-07-09 edit)
+  - `hello.service.yaml` - creates a load balancer and exposes the 'python-hello-world' service on an external IP in the cluster (2023-07-09 edit)
 
 ---
 ## Getting Started with VS Code

@@ -11,7 +11,16 @@
       "skaffoldConfig": "${workspaceFolder}/skaffold.yaml",
       "watch": true,
       "cleanUp": true,
-      "portForward": true
+      "portForward": true,
+      "debug": [
+        {
+          "image": "chaewon-hello-world",
+          "containerName": "server",
+          "sourceFileMap": {
+            "${workspaceFolder}\\src": "/app"
+          }
+        }
+      ]
     }
   ]
 }

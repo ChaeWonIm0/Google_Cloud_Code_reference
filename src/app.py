@@ -14,9 +14,9 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a simple HTML page with a friendly message."""
-    message = "It's running!"
+    message = "It's running! say hello with chae won!"
 
-    return render_template('index.html', message=message)
+    return render_template('index2.html', message=message)
 
 if __name__ == '__main__':
     signal(SIGINT, handler)
