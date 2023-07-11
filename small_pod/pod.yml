@@ -1,0 +1,28 @@
+# --- 파드 서버(접근 못함)
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app.kubernetes.io/name: proxy
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+      name: http-web-svc
+# --- 서비스 서버 (네트워킹 출시. 실 동작용)
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  type: NodePort
+  selector:
+    app.kubernetes.io/name: proxy
+  ports:
+  - name: nginx-service-port
+    protocol: TCP
+    port: 80
+    targetPort: http-web-svc

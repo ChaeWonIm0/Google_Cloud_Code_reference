@@ -10,11 +10,11 @@
       "request": "launch",
       "skaffoldConfig": "${workspaceFolder}/skaffold.yaml",
       "watch": true,
-      "cleanUp": true,
+      "cleanUp": false,
       "portForward": true,
       "debug": [
         {
-          "image": "chaewon-hello-world",
+          "image": "python-hello-world",
           "containerName": "server",
           "sourceFileMap": {
             "${workspaceFolder}\\src": "/app"
