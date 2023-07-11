@@ -82,6 +82,7 @@ If you’re invited to join a study, you may try out a new product or tell us wh
 
 #### 230711 python-hello-world 수정
 ![Alt text](image.png)
-
+https://hello-world-1-f47srmk2nq-uc.a.run.app/
+try this
 #### 스캔 - zenmap 사용
 - pod로 Nginx 오픈
