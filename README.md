@@ -13,3 +13,6 @@
 2) framework : Flask(hello-world)
 3) 메모리 제한 : 7652mb (Docker 메모리에 제한이 발생됨) (230709)
 
+#### 서비스가 일반적으로 돌아가는 구조
+
+![Alt text](image.png)
